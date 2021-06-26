@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
-mongodb+srv://vivekpandey76:vishal786@cluster0.k2gbo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
 
 mongoose
   .connect(process.env.CONNECTION_URL, {
